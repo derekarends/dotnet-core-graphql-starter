@@ -1,4 +1,4 @@
-# DotNet Core GraphQL Application
+# .Net Core GraphQL Application
 Is a demo application to show how an architecture could have logging, statistics, caching, and connecting to mongo
 
 ## Prerequisites
