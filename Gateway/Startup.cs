@@ -62,8 +62,8 @@ namespace Gateway
             {
                 Environment = _configuration["Environment"],
                 Host = _configuration["Host"],
-                ConnectionStrings = _configuration["ConnectionStrings:Docflow"],
-                Database = _configuration["Databases:Docflow"],
+                ConnectionStrings = _configuration["ConnectionStrings:SampleApp"],
+                Database = _configuration["Databases:SampleApp"],
                 JwtKey = _configuration["Jwt:Key"],
                 JwtIssuer = _configuration["Jwt:Issuer"],
                 JwtExpiresInMinutes = int.Parse(_configuration["Jwt:ExpiresInMinutes"])
