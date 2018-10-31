@@ -1,4 +1,4 @@
-# DocFlow Application
+# .Net Core GraphQL Application
 Is a demo application to show how an architecture could have logging, statistics, caching, and connecting to mongo
 
 ## Prerequisites
@@ -12,20 +12,20 @@ Is a demo application to show how an architecture could have logging, statistics
 * Swap the commented values for IIpPolicyStore and IRateLimitCounterStore in Startup.cs
 
 ## To Run
-* Open the DocFlow.sln
+* Open the DotNetCoreGraphQL.sln
 * Run Gateway project
 * Go to localhost:5000
 
 ## Example Queries
 ```
 mutation {
-  createUser(user: {name: "amy", email:"a@g.com", password: "asdf"} ) {
+  createUser(user: {name: "username", email:"user@mail.com", password: "asdf"} ) {
     id
   }
 }
 
 query {
-  first: user(id:"5b9b0f9f4cc93e8138be00d4") {
+  first: user(id:"[idOfUserCreated]") {
       id
       name
   }
